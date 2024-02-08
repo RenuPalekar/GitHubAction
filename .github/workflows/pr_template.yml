@@ -20,7 +20,7 @@ jobs:
       contents: read
       pull-requests: read
     name: Validate PR Title
-    runs-on: windows
+    runs-on: windows-latest
     steps:
       - uses: thehanimo/pr-title-checker@0cf5902181e78341bb97bb06646396e5bd354b3f # v1.4.0
         with:
