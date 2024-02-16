@@ -1,0 +1,25 @@
+name: Parameterized Workflow
+
+on:
+  repository_dispatch:
+    types: [trigger-workflow]
+
+jobs:
+  parameterized_job:
+    runs-on: testrun
+
+    inputs:
+      greeting:
+        description: "The greeting message"
+        required: true
+      name:
+        description: "The name to greet"
+        required: true
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Greet User
+        run: |
+          echo "${{ inputs.greeting }}, ${{ inputs.name }}!"
