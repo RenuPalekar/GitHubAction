@@ -1,26 +1,22 @@
-name: python script
-
+name: Simple Workflow
+ 
 on:
-  push:
-    branches:
-      - main
-
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL of the file to download'
+        required: true
+      output_file:
+        description: 'Name of the output file'
+        required: true
+ 
 jobs:
-  build:
-    runs-on: testrun
+  simple_job:
+    runs-on: ubuntu-latest
+ 
     steps:
-      - name: checkout repo content
-        uses: actions/checkout@v3 # checkout the repository content
-
-      - name: setup python
-        uses: actions/setup-python@v3
-        with:
-          python-version: "3.10" # install the python version needed
-
-      - name: install python packages
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: execute py script # run main.py
-        run: python test.py
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+ 
+      - name: Run Python Script
+        run: python simple_script.py ${{ github.event.inputs.url }} ${{ github.event.inputs.output_file }}
