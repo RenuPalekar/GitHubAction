@@ -1,22 +1,23 @@
-name: Simple Workflow
+name: Read JSON and Fetch Data
  
 on:
   workflow_dispatch:
     inputs:
-      url:
-        description: 'URL of the file to download'
+      json_file:
+        description: 'Path to the JSON file'
         required: true
-      output_file:
-        description: 'Name of the output file'
+      key_to_fetch:
+        description: 'Key to fetch from the JSON file'
         required: true
  
 jobs:
-  simple_job:
-    runs-on: ubuntu-latest
- 
+  build:
+    name: Run Python Script
+    runs-on: testrun
+    
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
- 
-      - name: Run Python Script
-        run: python test.py ${{ github.event.inputs.url }} ${{ github.event.inputs.output_file }}
+    - name: Checkout code
+      uses: actions/checkout@v3
+        
+    - name: Run script
+      run: fetchDataFromJson.py ${{ github.workspace }}/${{ github.event.inputs.json_file }} ${{ github.event.inputs.key_to_fetch }}
