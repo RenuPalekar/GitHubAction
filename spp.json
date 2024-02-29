@@ -1,0 +1,165 @@
+{
+    "Members": [
+        {
+            "BundleId": "2023.04.00.04",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for Gen11 SPP 2023.04.00.00",
+            "ReleaseDate": "2020-08-23T12:03:09+00:00",
+            "SPPId": "0d4c744b5e78d9dbe173dfa30b737755",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2023.04.00.02",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for Gen11 SPP 2023.04.00.00",
+            "ReleaseDate": "2023-06-14T06:07:14+00:00",
+            "SPPId": "5c895a37da36769685729a2bf0a32494",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "Gen9.1",
+            "Description": "The Gen9 Service Pack for ProLiant (SPP) is a comprehensive systems software and firmware update solution, which is delivered as a single ISO image. This post production SPP uses Smart Update Manager (SUM) as the deployment tool and contains updates for ProLiant Gen9 systems.",
+            "Name": "Service Pack for ProLiant",
+            "ReleaseDate": "2022-08-25T17:47:23+00:00",
+            "SPPId": "31f154ddd69a3f2fc9a3dd258b991bc6",
+            "Type": "proliant-servicepack"
+        },
+        {
+            "BundleId": "2023.03.00.00",
+            "Description": "",
+            "Name": "Additional Supplement for SPP",
+            "ReleaseDate": "2023-11-21T09:50:52.919861",
+            "SPPId": "b419a9286cd23f83291b73a5ac94ccb0",
+            "Type": "proliant-additionalsupplement"
+        },
+        {
+            "BundleId": "2022.09.01.05",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for SPP 2022.09.01.00",
+            "ReleaseDate": "2023-08-23T11:05:19+00:00",
+            "SPPId": "b0395ea63394ba807277f46b141fc50c",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2023.03.00.00",
+            "Description": "Gen10/Gen10 Plus Service Pack for ProLiant (SPP) is a comprehensive systems software and firmware update solution, which is delivered as a single ISO image. This solution uses Smart Update Manager (SUM) as the deployment tool and is tested on all HPE ProLiant Gen10/Gen10 Plus servers as defined in the Service Pack for ProLiant Server Support Guide found at www.hpe.com/servers/spp/documentation.",
+            "Name": "Gen10 Service Pack for ProLiant ",
+            "ReleaseDate": "2023-01-12T14:17:18+00:00",
+            "SPPId": "e0acd1b7b9ad9d66ecfeabcfbea5cc58",
+            "Type": "proliant-servicepack"
+        },
+        {
+            "BundleId": "2023.02.00.00",
+            "Description": "Gen11 Service Pack for ProLiant (SPP) is a comprehensive systems software and firmware update solution, which is delivered as a single ISO image. This solution uses Smart Update Manager (SUM) as the deployment tool and is tested on all HPE ProLiant Gen11 servers as defined in the Service Pack for ProLiant Server Support Guide found at www.hpe.com/servers/spp/documentation.",
+            "Name": "Gen11 Service Pack for ProLiant",
+            "ReleaseDate": "2023-02-15T00:00:00+00:00",
+            "SPPId": "f79f5bdf19490cf40a526120a31e069b",
+            "Type": "proliant-servicepack"
+        },
+        {
+            "BundleId": "2023.04.00.03",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for Gen11 SPP 2023.04.00.00",
+            "ReleaseDate": "2023-07-27T00:00:00+00:00",
+            "SPPId": "cf323205341e010e04ee9efa2a1b7e59",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2022.09.01.04",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for SPP 2022.09.01.00",
+            "ReleaseDate": "2023-07-27T00:00:00+00:00",
+            "SPPId": "3211690e9dc820cd93e05291ce26485f",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2022.09.01.02",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for Gen10 Gen10 Plus SPP 2022.09.01.00",
+            "ReleaseDate": "2022-12-23T16:46:43+00:00",
+            "SPPId": "21541dca69aba75270cb538d3c3823a3",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2022.12.00.00",
+            "Description": "Gen11 Service Pack for ProLiant (SPP) is a comprehensive systems software and firmware update solution, which is delivered as a single ISO image. This solution uses Smart Update Manager (SUM) as the deployment tool and is tested on all HPE ProLiant Gen11 servers as defined in the Service Pack for ProLiant Server Support Guide found at www.hpe.com/servers/spp/documentation.",
+            "Name": "Gen11 Service Pack for ProLiant",
+            "ReleaseDate": "2022-12-19T00:00:00+00:00",
+            "SPPId": "da7bfa635086f6f7043775e1132b89c3",
+            "Type": "proliant-servicepack"
+        },
+        {
+            "BundleId": "2023.04.00.05",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for Gen11 SPP 2023.04.00.00",
+            "ReleaseDate": "2023-07-30T10:52:18+00:00",
+            "SPPId": "6a8b20457029ffefd2c5322667689fc6",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2022.09.01.01",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for Gen10 Gen10 Plus SPP 2022.09.01.00",
+            "ReleaseDate": "2022-12-05T17:14:16+00:00",
+            "SPPId": "0f056cf77f88176cc34f21811c9e0bb9",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2023.04.00.00",
+            "Description": "",
+            "Name": "Additional Supplement for SPP",
+            "ReleaseDate": "2023-11-21T10:17:07.501082",
+            "SPPId": "304eb944180a533684d8def6bb5d14af",
+            "Type": "proliant-additionalsupplement"
+        },
+        {
+            "BundleId": "2022.09.01.00",
+            "Description": "Gen10/Gen10 Plus Service Pack for ProLiant (SPP) is a comprehensive systems software and firmware update solution, which is delivered as a single ISO image. This solution uses Smart Update Manager (SUM) as the deployment tool and is tested on all HPE ProLiant Gen10/Gen10 Plus servers as defined in the Service Pack for ProLiant Server Support Guide found at www.hpe.com/servers/spp/documentation.",
+            "Name": "Gen10 Service Pack for ProLiant ",
+            "ReleaseDate": "2022-10-30T19:16:31+00:00",
+            "SPPId": "ea469b39ed5106434169397999e816bf",
+            "Type": "proliant-servicepack"
+        },
+        {
+            "BundleId": "2023.04.00.01",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for Gen11 SPP 2023.04.00.00",
+            "ReleaseDate": "2023-05-12T15:39:54+00:00",
+            "SPPId": "f6a03f372f898be6a8176fb6f25864ed",
+            "Type": "proliant-patch"
+        },
+        {
+            "BundleId": "2023.02.00.00",
+            "Description": "",
+            "Name": "Additional Supplement for SPP",
+            "ReleaseDate": "2023-11-21T10:18:20.293194",
+            "SPPId": "e14c6f2beefebdf69e1cf0a9a4da5760",
+            "Type": "proliant-additionalsupplement"
+        },
+        {
+            "BundleId": "2022.12.00.00",
+            "Description": "",
+            "Name": "Additional Supplement for SPP",
+            "ReleaseDate": "2023-11-21T10:18:30.999671",
+            "SPPId": "bbd727b2d4e9d3a8981228aa904528fd",
+            "Type": "proliant-additionalsupplement"
+        },
+        {
+            "BundleId": "2023.04.00.00",
+            "Description": "Gen11 Service Pack for ProLiant (SPP) is a comprehensive systems software and firmware update solution, which is delivered as a single ISO image. This solution uses Smart Update Manager (SUM) as the deployment tool and is tested on all HPE ProLiant Gen11 servers as defined in the Service Pack for ProLiant Server Support Guide found at www.hpe.com/servers/spp/documentation.",
+            "Name": "Gen11 Service Pack for ProLiant",
+            "ReleaseDate": "2023-04-04T00:00:00+00:00",
+            "SPPId": "3e52bf7808fe5dbcbeac021e2bd06e32",
+            "Type": "proliant-servicepack"
+        },
+        {
+            "BundleId": "2022.09.01.03",
+            "Description": "Patch bundle is an update over an already released SPP (Service Pack for ProLiant) including software, drivers and firmware components.",
+            "Name": "Patch bundle for SPP 2022.09.01.00",
+            "ReleaseDate": "2023-04-24T15:16:03+00:00",
+            "SPPId": "faaa10de6714455ebb711ff34ff6c414",
+            "Type": "proliant-patch"
+        }
+    ],
+    "StatusCode": 0
+}
