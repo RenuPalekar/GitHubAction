@@ -14,8 +14,3 @@ if __name__ == "__main__":
     key = sys.argv[2]
     result = fetch_data(json_file, key)
     print(result)
-FooterHPE: Social coding
-Hewlett Packard Enterprise
-HPE: Social coding
-HPE: Social coding
-Hewlett Packard Enterprise
